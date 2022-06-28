@@ -20,5 +20,33 @@ h1 {
     margin-right: 7em;
 }
 
+.home-p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
+
+a:link,
+a:visited,
+a:active {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: grey
+}
+
 
 /*ids*/
+
+#home-div {
+    margin-left: 32em;
+    margin-right: 32em;
+    text-align: center;
+    background-color: #f7cca1;
+    border: 25px solid #5e3308;
+}
