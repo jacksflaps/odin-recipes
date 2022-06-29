@@ -26,6 +26,26 @@ h1 {
     font-size: 25px;
 }
 
+.head-image {
+    width: 450px;
+    height: 400px;
+}
+
+
+/*ids*/
+
+#home-div {
+    box-sizing: border-box;
+    margin-left: 32em;
+    margin-right: 32em;
+    text-align: center;
+    background-color: #f7cca1;
+    border: 25px solid #5e3308;
+}
+
+
+/*links*/
+
 a:link,
 a:visited,
 a:active {
@@ -38,15 +58,4 @@ a:hover {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     color: grey
-}
-
-
-/*ids*/
-
-#home-div {
-    margin-left: 32em;
-    margin-right: 32em;
-    text-align: center;
-    background-color: #f7cca1;
-    border: 25px solid #5e3308;
 }
